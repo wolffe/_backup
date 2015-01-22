@@ -1,0 +1,419 @@
+@font-face {
+    font-family: 'OpenSansCondensedLight';
+    src: url('fonts/osc/OpenSans-CondLight-webfont.eot');
+    src: url('fonts/osc/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/osc/OpenSans-CondLight-webfont.woff') format('woff'),
+         url('fonts/osc/OpenSans-CondLight-webfont.ttf') format('truetype'),
+         url('fonts/osc/OpenSans-CondLight-webfont.svg#OpenSansCondensedLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OpenSansCondensedLightItalic';
+    src: url('fonts/osc/OpenSans-CondLightItalic-webfont.eot');
+    src: url('fonts/osc/OpenSans-CondLightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/osc/OpenSans-CondLightItalic-webfont.woff') format('woff'),
+         url('fonts/osc/OpenSans-CondLightItalic-webfont.ttf') format('truetype'),
+         url('fonts/osc/OpenSans-CondLightItalic-webfont.svg#OpenSansCondensedLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OpenSansCondensedBold';
+    src: url('fonts/osc/OpenSans-CondBold-webfont.eot');
+    src: url('fonts/osc/OpenSans-CondBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/osc/OpenSans-CondBold-webfont.woff') format('woff'),
+         url('fonts/osc/OpenSans-CondBold-webfont.ttf') format('truetype'),
+         url('fonts/osc/OpenSans-CondBold-webfont.svg#OpenSansCondensedBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('fonts/os/OpenSans-Light-webfont.eot');
+    src: url('fonts/os/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/os/OpenSans-Light-webfont.woff') format('woff'),
+         url('fonts/os/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('fonts/os/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansLightItalic';
+    src: url('fonts/os/OpenSans-LightItalic-webfont.eot');
+    src: url('fonts/os/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/os/OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('fonts/os/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('fonts/os/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('fonts/os/OpenSans-Regular-webfont.eot');
+    src: url('fonts/os/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/os/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/os/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/os/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansItalic';
+    src: url('fonts/os/OpenSans-Italic-webfont.eot');
+    src: url('fonts/os/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/os/OpenSans-Italic-webfont.woff') format('woff'),
+         url('fonts/os/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('fonts/os/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('fonts/os/OpenSans-Semibold-webfont.eot');
+    src: url('fonts/os/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/os/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('fonts/os/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('fonts/os/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansSemiboldItalic';
+    src: url('fonts/os/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('fonts/os/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/os/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+         url('fonts/os/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('fonts/os/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('fonts/os/OpenSans-Bold-webfont.eot');
+    src: url('fonts/os/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/os/OpenSans-Bold-webfont.woff') format('woff'),
+         url('fonts/os/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/os/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansBoldItalic';
+    src: url('fonts/os/OpenSans-BoldItalic-webfont.eot');
+    src: url('fonts/os/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/os/OpenSans-BoldItalic-webfont.woff') format('woff'),
+         url('fonts/os/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/os/OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansExtrabold';
+    src: url('fonts/os/OpenSans-ExtraBold-webfont.eot');
+    src: url('fonts/os/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/os/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('fonts/os/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('fonts/os/OpenSans-ExtraBold-webfont.svg#OpenSansExtrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansExtraboldItalic';
+    src: url('fonts/os/OpenSans-ExtraBoldItalic-webfont.eot');
+    src: url('fonts/os/OpenSans-ExtraBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/os/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'),
+         url('fonts/os/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/os/OpenSans-ExtraBoldItalic-webfont.svg#OpenSansExtraboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body, input, select, textarea {
+	font-family: "OpenSansSemibold", sans-serif;
+	font-size: 13px;
+}
+body {
+	background-color: #ededed;
+	margin: 0;
+	padding: 0;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="submit"],
+select {
+	padding: 8px 4px;
+	font-size: 14px;
+}
+
+footer { margin: 64px 0 16px 0; border-top: 1px solid rgba(0, 0, 0, 0.25); }
+footer p { opacity: 0.5; }
+
+.container {
+	width: 800px;
+	margin: 0 auto 32px auto;
+}
+
+b {
+	font-family: "OpenSansBold";
+}
+
+
+.hp-calendar {
+	width: 100%;
+	margin: 0 auto;
+	border-spacing: 1px;
+	border-collapse: separate;
+}
+.hp-calendar td {
+	font-family: "OpenSansCondensedLight", sans-serif;
+	background-color: #90b75b;
+	width: 80px;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0;
+	display: table-cell;
+	font-size: 28px;
+}
+.hp-calendar .hp-head {
+	background-color: #0ca7d2;
+	color: #ffffff;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+}
+.hp-calendar .hp_c_head {
+	background-color: #7DC3E3;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+.hp-calendar .margin-date {
+	background-color: #b62e3c;
+	color: #ffffff;
+	font-weight: bold;
+}
+.hp-calendar .intermediary-date {
+	background-color: #e0374a;
+	color: #ffffff;
+}
+
+
+.hp-floatright {
+	float: right;
+}
+
+.clearfix { clear: both; }
+
+
+
+#menu { 
+	background-color: #0ca7d2;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 56px;
+	line-height: 56px;
+	font-family: "OpenSansCondensedBold", sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+#menu li {
+	float: left;
+	height: 56px;
+	line-height: 56px;
+}
+#menu li a {
+	display: block;
+	padding: 0 16px;
+	color: #ffffff;
+	text-decoration: none;
+}
+#menu li a:hover {
+	background-color: #034d61;
+	text-decoration: none;
+}
+
+#menu .hp-menu-head {
+	font-family: "OpenSansCondensedLight", sans-serif;
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+.hp-inner-title {
+	font-family: "OpenSansCondensedLight", sans-serif;
+	font-size: 28px;
+	text-transform: uppercase;
+	text-align: right;
+	letter-spacing: 8px;
+	opacity: 0.25;
+}
+
+.hp-arrow {
+	font-family: "OpenSansCondensedLight", sans-serif;
+	position: absolute;
+	background-color: #034d61;
+	display: block;
+	width: 80px;
+	height: 180px;
+	line-height: 180px;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 90px;
+	opacity: 0.25;
+}
+.hp-arrow:hover {
+	opacity: 1.0;
+}
+
+.hp-arrow-left { margin-left: -80px; margin-top: 62px; }
+.hp-arrow-right { margin-left: 800px; margin-top: 62px; }
+
+
+
+
+
+
+
+
+
+.hp-datatable {
+	width: 800px;
+	border-spacing: 1px;
+	border-collapse: separate;
+}
+.hp-datatable td,
+.hp-datatable th {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #6D929B;
+}
+
+
+.hp-datatable td.alt {
+	background: #F5FAFA;
+	color: #B4AA9D;
+}
+.hp-datatable tr:nth-child(odd) td {
+   background-color: #DCDCDC;
+}
+
+#tablePagination {
+	background-color: #DCDCDC; 
+	padding: 0px 5px; 
+	height: 60px;
+	line-height: 60px;
+}
+#tablePagination_paginater { 
+	margin-left: auto; 
+	margin-right: auto;
+}
+#tablePagination img { 
+	padding: 0px 2px; 
+}
+#tablePagination_perPage { 
+	float: left; 
+}
+#tablePagination_paginater { 
+	float: right; 
+}
+
+#tablePagination_nextPage,
+#tablePagination_prevPage,
+#tablePagination_firstPage,
+#tablePagination_lastPage { display: inline-block; width: 24px; line-height: 24px; height: 24px; border-right: 1px solid #C1DAD7; border-bottom: 1px solid #C1DAD7; background: #ffffff; text-align: center; cursor: pointer; }
+
+
+
+
+.hp_unit_box {
+	float: left;
+	display: block;
+	width: 32px;
+	height: 72px;
+	text-align: center;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background-color: #90B75B;
+	padding: 8px;
+	font-size: 10px;
+	cursor: help;
+}
+.hp_unit_box_main {
+	font-family: "OpenSansCondensedBold", sans-serif;
+	font-size: 24px;
+}
+
+.hp_unit_box img { opacity: 0.3; }
+.hp_unit_box img:hover { opacity: 1; }
+
+.hp_simple { width: 32px; }
+.hp_double { width: 81px; }
+.hp_cleaning { background-color: #FFA500; }
+
+.bg-red { background-color: #D50F25; }
+.bg-purple { background-color: #9B4F96; }
+
+
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+}
+
+
+
+/* take that, responsiveness! */
+@media screen and (max-width: 800px) {
+	.container { width: 100%; margin: 0; }
+	#menu li { background-color: #0ca7d2; display: block; width: 100%; text-align: center; margin-bottom: 1px; }
+	#menu .hp-menu-head { display: block; width: 100%; text-align: center; }
+}
+@media screen and (max-width: 640px) {
+	#menu .hp-menu-head { height: 56px; line-height: 56px; }
+	#menu, #menu li { height: 32px; line-height: 32px; }
+}

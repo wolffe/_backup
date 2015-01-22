@@ -1,0 +1,77 @@
+=1.2=
+=18.03.2013=
+
+* Added sorting/ordering for category view
+* Changed price column to INT
+* Changed date column to DATE
+
+=1.2=
+=08.01.2013=
+
+* Added multiple image upload (both on submission and on edit) (hold CTRL to select multiple images)
+* Updated jQuery library to latest version (1.8.3)
+* Updated Colorbox plugin to latest version (1.3.20.2)
+* Updated TimThumb to latest version (2.8.11)
+* Updated theme
+* Changed custom Google webfonts with standard fonts
+* Changed search form (added placeholders, moved buttons, simplified form)
+* Increased font size
+* Fixed hardcoded currency in sidebar
+* Removed latest members and moved the calculator to right sidebar
+
+=1.1=
+=03.08.2012=
+
+* Updated jQuery library to latest version (1.7.2)
+* Updated Colorbox plugin to latest version (1.3.19)
+* Updated TimThumb to latest version (2.8.10)
+* Updated document structure to HTML5
+* Added option to show or hide the header image
+* Added option to display a custom image (same server or external sites)
+* Added option to display Google Maps instead of header image
+* Removed links
+
+=1.0.1=
+=22.07.2011=
+
+* Added simple mortgage calculator
+* Added advanced mortgage calculator
+* Updated author links
+* Fixed user deletion error
+* Validated page as XHTML 1.0 Strict
+
+=1.0=
+=03.05.2011=
+
+* Added better dashboard
+* Added user administration
+* Improved administration speed
+* Fixed a big administration bug
+* Updated thumbnail script
+* Updated menu with more accessible links
+* Removed several useless URL parameters
+
+=0.9.9=
+=18.04.2011=
+
+* Title variable now applies to <title> tag, too
+* Added Paypal payment
+* Added 2 email fields in Administration | Settings screen (PayPal email and general notification email)
+* Added listing price in Administration | Settings screen
+* UI tweaks for administration section
+* Fixed registration error
+
+=0.9.8=
+=12.04.2011=
+
+* Fixed login errors
+* Fixed login translated string
+* Added Administration link
+* Added 'admin' user with highest privileges
+* Added user info and badges
+* Small graphic tweaks
+
+=0.9.7=
+=05.04.2011=
+
+* First release

@@ -1,0 +1,14 @@
+=== gbHTML5Video ===
+Requirements: -
+Stable tag: 1.1
+
+== Changelog ==
+
+= 1.1 =
+* Added video readyness check for IE
+* Added video compatibility check in demo file
+* Added playlist switcher
+* Replaced deprecated $.browser function
+
+= 1.0 =
+* First release

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>gbRichEdit5 Documentation</title>
+</head>
+
+<body>
+<p><strong>gbPlayer5 | HTML 5 Video Player</strong></p>
+<p><strong>gbPlayer5</strong> is a JavaScript  plugin for jQuery that makes it easier to work with and build on HTML5 video, today. This is also known as an "HTML5 Video Player". <strong>gbPlayer5</strong> provides a common controls skin built in HTML/CSS, cross-browser compatibility, and adds additional features like browser/real fullscreen.</p>
+<p><strong>What is HTML5 Video?</strong></p>
+<p>HTML is the markup language that makes up every page on the web. The newest version, HTML5, includes specifications for a &lt;video&gt; tag, that's meant to allow web developers to add a video to a page in the same way they would add an image. In order for this to work, web browser developers have built video playback functionality into their browsers.</p>
+<p>Playing video in a web page may not seem so special since you can already view video on a web page through plugins like Flash Player, Quicktime, and Silverlight. However, this is actually a big step forward for standardizing video playback across web browsers and devices. The goal is that in the future, developers will only need to use one method for embedding a video, based on open standards (not controlled by one company), and it will work everywhere. Additionally, HTML5 video can improve video performance by not requiring a second application (a plugin) to be running, and opens the door to creating interactions between video and other elements on the page that hasn't been possible before.</p>
+<p><strong>What is an HTML5 Video Player?</strong></p>
+An HTML5 Video Player is a JavaScript library that builds a custom set of controls over top of the HTML5 video element using jQuery in order to provide a consistent look between HTML5 browsers.
+<p><strong>gbPlayer5</strong> is HTML5 compliant and uses the latest version of jQuery available from googleapis.com library.</p>
+<p> <strong>Features</strong>
+</p>
+<ul>
+  <li>HTML5 compliant</li>
+	<li>One-file skin and project file</li>
+	<li>Simple to implement and extend</li>
+	<li>Light and fast</li>
+	<li>Not branded!</li>
+</ul>
+<p><strong>How to use</strong></p>
+<p>Add the following code to the head of your document:</p>
+<p><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/gbPlayer5.css&quot; /&gt; <br>
+&lt;script src=&quot;js/jquery-1.7.1.min.js&quot;&gt;&lt;/script&gt;<br>
+&lt;script src=&quot;js/gbPlayer5-min.js&quot;&gt;&lt;/script&gt;<br>
+&lt;script&gt;<br>
+$(document).ready(function() {<br>
+$('video').gbPlayer5({ volume: 80, 
+width : 840, 
+height: 480, 
+skin  : 'default' 
+});<br>
+});<br>
+&lt;/script&gt;</code></p>
+<p>Add the following code where you want the video to appear:</p>
+<p><code>&lt;video id=&quot;video&quot;&gt;<br>
+&lt;source src=&quot;video/your-video.mp4&quot; type=&quot;video/mp4&quot; /&gt;<br>
+&lt;/video&gt;</code></p>
+<p>Make sure you set the correct width and height, and use the correct path to your video file.</p>
+</body>
+</html>

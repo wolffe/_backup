@@ -1,0 +1,64 @@
+/* <video> element style */
+video { width: 0; height: 0;}
+
+/* main player element style */
+.gbPlayer5 { position: relative; overflow: hidden; background: #000; text-align: left; }
+.gb_nav { position: absolute; left: 0; bottom: 0; z-index: 5000; height: 34px; background-position: 0 0; background-repeat: repeat-x; font-family: "Lucida Sans Unicode", Helvetica, sans-serif; }
+
+/* ----- */
+/* SKINS */
+/* ----- */
+
+/* Skin: DEFAULT // name:default */
+.default { box-shadow: 0 0 10px #000; }
+.default .gb_nav, .default .gb_play, .default .gb_play:hover, .default .gb_big_play, .default .gb_pause, .default .gb_pause:hover, .default .gb_big_control:hover .gb_big_play,
+.default .gb_progressbar_left, .default .gb_progressbar_right, .default .gb_progressbar,
+.default .gb_current_time, .default .gb_current_time.long, .default .gb_volume_bg, .default .gb_sound_control,
+.default .enterFullscreen, .default .exitFullscreen, .default .gb_muteOn, .default .gb_muteOff
+{ background-image: url(../images/default.png); }
+.default .gb_big_control { background: rgba(0,0,0,.4); }
+.default .gb_big_control:hover { background: rgba(0,0,0,.2); }
+.default .gb_progress { background: rgba(255,255,255, 0.5); }
+.default .gb_current_time { color: #ccc; }
+.default .gb_time { color: #b7b7b7; }
+
+/* main elements and sub-elements style */
+.gb_control { float: left; cursor: pointer; }
+
+.gb_play { width: 22px; height: 15px; margin: 10px 10px 0; background-position: 0 -36px; background-repeat: no-repeat; }
+.gb_play:hover { background-position: 0 -54px; }
+	
+.gb_big_control { position: absolute; top: 0; left: 0; cursor: pointer; z-index: 40; }
+.gb_big_play { position: absolute; width: 78px; height: 78px; background-position: 0 -132px; background-repeat: no-repeat; }
+.gb_big_control:hover .gb_big_play { background-position: -80px -132px;	}
+
+.gb_pause { width: 22px; height: 15px; margin: 10px 10px 0; background-position: -24px -36px; background-repeat: no-repeat; }
+.gb_pause:hover { background-position: -24px -54px; }
+
+.gb_progressbar_holder { position: relative; height: 17px; margin: 9px 0 0 0; }
+.gb_progressbar_left { float: left; width: 2px; height: 17px; background-position: -70px -36px; background-repeat: no-repeat; }
+.gb_progressbar_right { float: left; width: 2px; height: 17px; background-position: -74px -36px; background-repeat: no-repeat; }
+.gb_progressbar { float: left; position:relative; height: 13px; padding: 2px 0; background-position: 0 -70px; background-repeat: repeat-x; }
+.gb_progress { float: left; width: 0px; height: 13px; }
+
+.gb_bufferbar { position: absolute; top: 2px; left: 0; display: block; z-index: -1; }
+.gb_buffer_progress { display: block; background-color: #555555; height: 13px; width: 0; }
+	
+.gb_current_time { position: absolute; opacity: 0; width: 43px; height: 21px; line-height: 16px; text-align: center; padding: 0; font-size: 11px; background-position: -78px -36px; background-repeat: no-repeat; }
+.gb_current_time.long { width: 49px; padding: 0 0 0 1px; background-position: -122px -36px; background-repeat: no-repeat; }
+
+.gb_time { opacity: 0; height: 15px; line-height: 14px; margin: 10px 8px 0; font-size: 13px; cursor: default; width: 120px; }
+
+.gb_end_time:before { content: '/'; padding: 0 4px; }
+
+.gb_volume { float: right; width: 60px; height: 13px; margin: 11px 6px 0; }
+.gb_volume_bg { display: block; background-position: 0 -104px; background-repeat: repeat-x; }
+.gb_volume .gb_sound_control { display: block; width: 0; 	height: 13px; background-position: 0 -118px; background-repeat: repeat-x; }
+
+.enterFullscreen, .exitFullscreen { float: right; width: 15px; height: 15px; margin: 10px 10px 0 10px; }
+.enterFullscreen, .exitFullscreen:hover { background-position: -15px -88px; background-repeat: no-repeat; }
+.exitFullscreen, .enterFullscreen:hover { background-position: 0 -88px; background-repeat: no-repeat; }
+
+.gb_nav .gb_muteOn, .gb_nav .gb_muteOff { float: right; width: 20px; height: 15px; margin: 10px 0 0; }
+.gb_nav .gb_muteOn { background-position: -48px -36px; background-repeat: no-repeat; }
+.gb_nav .gb_muteOff { background-position: -48px -54px; background-repeat: no-repeat; }

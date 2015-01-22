@@ -1,0 +1,113 @@
+body,td,th,input {
+	font: 14px Georgia, "Times New Roman", Times, serif;
+	color: #333333;
+}
+body {
+	background-color: #EEEEEE;
+}
+table,tr,td,th {
+	vertical-align: top;
+}
+
+hr {
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 8px auto;
+	width: 100%;
+	clear: both;
+	border: none;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #FFFFFF;
+	font-size: 1px;
+	line-height: 0;
+	overflow: visible;
+}
+
+small {
+	font-family: "Segoe UI", Tahoma, Geneva, sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+#tableCategories td {
+	border-bottom: 1px solid #CFCFCF;
+}
+.type_title {
+	color: #666;
+	font-weight: bold;
+}
+.type_user {
+	color: #9b46e5;
+}
+.type_date {
+	color: #3865d1;
+}
+.type_expire {
+	color: #eb7e1c;
+	font-weight: bold;
+}
+.type_content {
+	color: #666;
+}
+
+.restricted {
+	text-align: center;
+	margin-top: 36px;
+}
+
+/* CSS3 MENU */
+ul#navbar,ul#navbar ul { margin: 0; list-style: none; padding: 0; border: 1px solid #CCCCCC; border-radius: 4px; }
+ul#navbar ul { display: none; position: absolute; left: 0; top: 100%; box-shadow: 0 0 2px #CCCCCC; padding: 0 10px 10px; background-color:#FFFFFF; border-radius:4px; border-color: #C1C1C1; }
+ul#navbar li:hover>* { display: block; }
+ul#navbar li:hover { position: relative; }
+ul#navbar ul ul { position: absolute; left: 100%; top: 0; }
+ul#navbar { display: block; float: left; }
+ul#navbar li { display: block; white-space: nowrap; float: left; }
+ul#navbar>li,ul#navbar li { margin: 0; }
+ul#navbar a:active, ul#navbar a:focus { outline-style: none; }
+ul#navbar a { display: block; vertical-align: middle; text-align: left; text-decoration: none; color: #333333; text-shadow: 0 0 1px #FFFFFF; cursor: pointer; padding: 10px; background: #EEEEEE url("images/mainbk.png") repeat; border: 0; }
+ul#navbar ul li { float: none; margin: 10px 0 0; }
+ul#navbar ul a { text-align: left; padding: 4px; background: none; border-width: 0; color: #333333; text-decoration: none; }
+ul#navbar li:hover>a { background: #0c97e2 url("images/mainbk.png") 0 100px; color: #FFFFFF; text-decoration: none; text-shadow: 0 0 1px #FFFFFF; }
+ul#navbar ul li:hover>a { background: none; color: #0c97e2; text-decoration: none; }
+
+ul#navbar li.topfirst>a { height: 20px; line-height: 20px; }
+ul#navbar li.topfirst:hover>a { line-height: 20px; text-shadow: 0 0 1px #000000; }
+ul#navbar li.topmenu>a { height: 20px; line-height:20px; }
+ul#navbar li.topmenu:hover>a { line-height: 20px; text-shadow: 0 0 1px #000000; }
+ul#navbar li.toplast>a { height: 20px; line-height: 20px; border-radius: 0 4px 4px 0; }
+ul#navbar li.toplast:hover>a { line-height: 20px; text-shadow: 0 0 1px #000000; }
+
+
+.confirm {
+	padding: 8px;
+	background-color: #FFFFCC;
+	border: 1px dotted #CCCCCC;
+}
+
+.settings-form p {
+	margin-bottom: 2px;
+}
+.description {
+	margin-top: 2px;
+	padding-top: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 8pt;
+	color: #777777;
+}
+
+.widgetbox {
+	float: left;
+	width: 400px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 8px;
+    background-color: #DEDEDE;
+    border: 1px solid #CFCFCF;
+    border-radius: 4px;
+}
+.widgetbox ul li {
+	line-height: 20px;
+}

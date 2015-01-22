@@ -1,0 +1,403 @@
+/* ####################################### */
+/* DEFAULT STYLES FOR SOME ELEMENTS OF PAGES */
+/* ####################################### */
+
+body {
+	font-family:"Segoe UI",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	color: #555555;
+	background-color: #ffffff;
+	width: 960px;
+	margin: 0 auto;
+}
+
+hr {
+	border: 0;
+	color: #666666;
+	background-color: #dddddd;
+	height: 1px;
+	width: 100%; }
+
+ul {
+	list-style: square outside; }
+
+
+
+
+
+
+
+
+/* ####################################### */
+/* THE TABLE THAT HOLD THE FORM FOR SIGNING UP & EDITING SETTINGS */
+/* ####################################### */
+
+table.options {
+	width: 550px;
+}
+td.options {
+	padding: 2px; }
+
+
+
+
+
+
+
+
+
+/* ####################################### */
+/* THE TABLE THAT HOLD THE FORM FOR ADMIN SETTINGS
+/* ####################################### */
+
+table.admin {
+	width: 450px;
+}
+td.admin1 {
+	padding: 1px;
+	whitespace: no-wrap; 
+}
+td.admin2 {
+	padding: 1px; 
+}
+
+
+
+
+
+
+
+
+/* ####################################### */
+/* THE TABLE THAT HOLDS THE ADMINISTRATORS VIEW
+/* OF ALL THE MEMBERS OF THE SITE
+/* ####################################### */
+
+
+table.show_users_table {
+}
+td.show_users_table_header {
+  background-color: #cccccc;  
+  color: #000000;
+  font-weight: bold;
+  padding: 6px;
+}
+td.show_users_table_td {
+  background-color: #dddddd;  
+  color: #666666;
+  padding: 3px;
+}
+
+
+
+
+
+
+
+
+/* ####################################### */
+/* FORM ELEMENTS FOUND THROUGHOUT THE SITE */
+/* ####################################### */
+
+.textarea { 
+	width: 550px;
+	font-weight: normal;
+	background-color: #ffffff;  
+	color: #555555; 
+	border-color: #8c8c8c; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-collapse: collapse; }
+
+.textareasmall { 
+	font-weight: normal;
+	background-color: #ffffff;  
+	color: #555555; 
+	border-color: #8c8c8c; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-collapse: collapse; }
+
+.textinput { 
+	width: 155px;
+	font-weight: normal;
+	background-color: #ffffff;  
+	color: #555555; 
+	border-color: #8c8c8c; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-collapse: collapse; }
+
+.textinputsmall { 
+	width: 33px;
+	font-weight: normal;
+	background-color: #ffffff;  
+	color: #555555; 
+	border-color: #8c8c8c; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-collapse: collapse; }
+
+.textinputsmall2 { 
+	width: 130px;
+	font-weight: normal;
+	background-color: #ffffff;  
+	color: #555555; 
+	border-color: #8c8c8c; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-collapse: collapse; }
+
+.button { 
+	width: 80px;
+	font-weight: normal;
+	background-color: #ffffff;  
+	color: #555555; 
+	border-color: #8c8c8c; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-collapse: collapse; }
+
+.select { 
+	width: 160px;
+	font-weight: normal;
+	background-color: #ffffff;  
+	color: #555555; 
+	border-color: #8c8c8c; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-collapse: collapse; }
+
+.selectsmall { 
+	width: 115px;
+	font-weight: normal;
+	background-color: #ffffff;  
+	color: #555555; 
+	border-color: #8c8c8c; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-collapse: collapse; }
+
+.selectlarge { 
+	width: 230px;
+	font-weight: normal;
+	background-color: #ffffff;  
+	color: #555555; 
+	border-color: #8c8c8c; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-collapse: collapse; }
+
+.option { 
+	font-weight: normal;
+	background-color: #ffffff;
+	color: #555555; }
+
+.checkbox {
+	border:1px solid #bbbbbb;
+	height: 12px;
+	width: 12px; }
+
+
+
+
+
+
+/* ####################################### */
+/* CONTROLS THE TABLE WHICH DISPLAYS STATS!!! */
+/* ####################################### */
+
+/* Main TABLE */
+table.showstats {
+ }
+
+/* Main TD */
+td.showstats {
+  padding: 3px; }
+
+/* The Header TD */
+td.showstats_header {
+  color: #666666;
+  font-weight: 600;
+  padding: 3px;
+  text-align: right; }
+
+/* TD Used For Displaying Individual Database Record */
+td.showstats {
+  padding-left: 7px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ####################################### */
+/* THE MAIN SIDEBAR AREA */
+/* ####################################### */
+
+.sidebar {
+	background-color: #ffffff;
+	width: 160px;
+}
+
+td.sidebar_td {
+	padding: 10px; }
+
+.sidebar_spacer {
+	padding-left: 30px;
+}
+
+
+
+/* ####################################### */
+/* THE SIDEBAR LOGIN TABLE */
+/* ####################################### */
+
+
+table.login {
+  width: 165px; }
+
+td.login {
+  color: #333333;
+  padding: 1px; }
+
+td.login2 {
+  color: #333333;
+  padding: 4px; }
+
+.login_header_font {
+  color: #1c5997;
+  font-weight: 900; }
+
+/* ####################################### */
+/* THE SIDEBAR RECOMMENDED LINKS TABLE */
+/* ####################################### */
+
+table.recommended {
+  width: 165px; }
+
+td.recommended {
+  color: #333333;
+  padding: 1px; }
+
+td.recommended2 {
+  color: #333333;
+  padding: 4px; }
+
+.recommended_header_font {
+  color: #1c5997;
+  font-weight: 900; }
+
+
+/* ####################################### */
+/* THE SIDEBAR MEMBER AND ADMIN LINKS TABLE */
+/* ####################################### */
+
+table.member_links {
+  width: 165px; }
+
+td.member_links {
+  color: #333333;
+  padding: 1px; }
+
+td.member_links2 {
+  color: #333333;
+  padding: 4px; }
+
+.member_links_header_font {
+  color: #1c5997;
+  font-weight: 900; }
+
+
+
+
+
+
+
+
+
+/* ####################################### */
+/* CONTROLS THE LAYOUT OF THE SITE */
+/* ####################################### */
+
+.maintable {
+	width: 938px;
+	background-color: #ffffff; }
+
+.maincontent {
+	padding: 0px;
+	background-color: #ffffff; }
+
+.maincontent2 {
+	padding: 10px; }
+
+.nav_link {
+	color: #1c5997;
+	padding-bottom: 5px;
+	font-weight: bold; }
+
+td.nav_link_td {
+	whitespace: no-wrap; 
+	padding-bottom: 8px; }
+
+
+
+
+
+
+/* ####################################### */
+/* ASSORTED FONTS USED THROUGHOUT
+/* ####################################### */
+
+
+
+.stats_header {
+  color: #1c5997;
+  font-size: 15px;
+  font-weight: 900;
+}
+.stats_subheader {
+  color: #003677;
+  font-size: 12px;
+  font-weight: bold;
+}
+.header1_font {
+  color: #333333;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.header2_font {
+  color: #333333;
+  font-weight: bold;
+}
+
+.error_font {
+  color: #bb3333;
+  font-weight: bold;
+}
+
+.help_font {
+	color: #bb4444;
+	padding: 5px; 
+	background-color: #eeeeee;
+	font-weight: bold;
+}
+
+.confirm_font {
+  color: #33bb33;
+  font-weight: bold;
+}
+
+.admin_search_font {
+  color: #0000ff;
+  font-weight: bold;
+}

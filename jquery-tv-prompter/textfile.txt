@@ -1,0 +1,5 @@
+This is the prompter text. It will flow at a constant speed and it can be paused by mousing over it. It was built as an alternative for executable TV teleprompter systems, and as a jQuery demonstration. More text here, and even more.
+
+[Commercial break]
+
+More text keeps flowing up.
