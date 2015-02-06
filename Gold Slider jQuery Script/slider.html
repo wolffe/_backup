@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Gold Slider HTML5/jQuery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- DEMO FONTS ONLY -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
+
+<!-- MAIN STYLES -->
+<!-- main styles do not contain any normalization or body customization -->
+<!-- so integrating the slider will not mess up the existing styles -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- INCLUDE JQUERY -->
+<!-- always use the latest version -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<!-- INCLUDE SLIDER SCRIPTS -->
+<!-- the ui.widget is part of jQuery UI and it is required for the slide transitions-->
+<!-- the easing script is used for easing effects (using latest version, 1.3) -->
+<script src="js/jquery.ui.widget.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.goldslider.js"></script>
+</head>
+<body>
+
+<!-- CUSTOMIZABLE STYLES -->
+<!-- these CSS declarations have been added to the body because -->
+<!-- they can customize the width, colours and borders -->
+<style scoped>
+.gs_wrap { width: 80%; height: 800px; }
+.gs_slideshow { height: 800px; }
+.gs_slideshow h2 a { color: #ffffff; }
+.gs_lightText, .gs_lightText h2 a { color: #ffffff; }
+.gs_slave { color: #ffffff; }
+.gs_slave {
+	background-color: #dd9933;
+	outline: #000000 solid 1px;
+}
+.gs_movingInnerItem { border-top: 4px solid #dd9933; }
+</style>
+
+<!-- MAIN SLIDER FUNCTION -->
+<!-- if you have a functions.js file, you can add the function below there -->
+<script>
+jQuery(function(){
+	jQuery(".gs_wrap").gs_voidSlider({
+		interval: 0, // autoplay (in seconds) // use 0 for no autoplay
+		innerItemDelay: 100,
+		animateDuration: 900, // speed of animation // the smaller, the faster
+		easing: "easeInOutBack" // easing effect // see documentation for all styles
+	});              
+});
+</script>
+
+<!-- BEGIN MAIN SLIDER WRAP -->
+<div class="gs_wrap">
+	<div class="gs_slideshow">
+        <!-- BEGIN SLIDE -->
+        <!-- add as many slides as you want -->
+        <div class="gs_item">
+            <div class="gs_top" style="background: url(http://placehold.it/900x500) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                <div class="gs_lightText">
+                    <h2><a href="#">Lorem Ipsum</a></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="gs_middle">
+                <div class="gs_slave" style="background: url(http://placehold.it/600x400) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <figcaption><h2><a href="#">Lorem Ipsum</a></h2></figcaption>
+                </div>
+                <div class="gs_slave" style="background: url(http://placehold.it/600x400) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <figcaption><h2><a href="#">Lorem Ipsum</a></h2></figcaption>
+                </div>
+                <div class="gs_slave" style="background: url(http://placehold.it/600x400) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <figcaption><h2><a href="#">Lorem Ipsum</a></h2></figcaption>
+                </div>
+            </div>
+
+            <!-- BEGIN ADDITIONAL LEVEL -->
+            <!-- add as many additional levels as you want -->
+            <div class="gs_middle">
+                <div class="gs_slave" style="background: url(http://placehold.it/600x400) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <figcaption><h2><a href="#">Lorem Ipsum</a></h2></figcaption>
+                </div>
+                <div class="gs_slave" style="background: url(http://placehold.it/600x400) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <figcaption><h2><a href="#">Lorem Ipsum</a></h2></figcaption>
+                </div>
+                <div class="gs_slave" style="background: url(http://placehold.it/600x400) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <figcaption><h2><a href="#">Lorem Ipsum</a></h2></figcaption>
+                </div>
+            </div>
+            <!-- END ADDITIONAL LEVEL -->
+        </div>
+        <!-- END SLIDE -->
+
+        <!-- BEGIN SLIDE -->
+        <div class="gs_item">
+            <div class="gs_top" style="background: url(http://placehold.it/900x500) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                <div class="gs_lightText">
+                    <h2><a href="#">Lorem Ipsum</a></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="gs_middle">
+                <div class="gs_slave" style="background: url(http://placehold.it/600x400) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <figcaption><h2><a href="#">Lorem Ipsum</a></h2></figcaption>
+                </div>
+                <div class="gs_slave" style="background: url(http://placehold.it/600x400) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <figcaption><h2><a href="#">Lorem Ipsum</a></h2></figcaption>
+                </div>
+                <div class="gs_slave" style="background: url(http://placehold.it/600x400) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <figcaption><h2><a href="#">Lorem Ipsum</a></h2></figcaption>
+                </div>
+            </div>
+
+            <!-- ADDITIONAL LEVEL -->
+            <div class="gs_middle">
+                <div class="gs_slave" style="background: url(http://placehold.it/600x400) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <figcaption><h2><a href="#">Lorem Ipsum</a></h2></figcaption>
+                </div>
+                <div class="gs_slave" style="background: url(http://placehold.it/600x400) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <figcaption><h2><a href="#">Lorem Ipsum</a></h2></figcaption>
+                </div>
+                <div class="gs_slave" style="background: url(http://placehold.it/600x400) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <figcaption><h2><a href="#">Lorem Ipsum</a></h2></figcaption>
+                </div>
+            </div>
+        </div>
+        <!-- END SLIDE -->
+
+        <!-- NEXT/PREVIOUS PAGINATION -->
+        <span class="gs_prev"></span>
+		<span class="gs_next"></span>
+    </div>
+</div>
+<!-- END MAIN SLIDER WRAP -->
+
+</body>
+</html>

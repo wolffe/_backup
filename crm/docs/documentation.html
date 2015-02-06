@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tycoon CRM Documentation</title>
+<style type="text/css">
+body,td,th {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: #666;
+}
+body {
+	background-color: #FFF;
+}
+a:link {
+	color: #06C;
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: underline;
+	color: #06C;
+}
+a:hover {
+	text-decoration: none;
+	color: #333;
+}
+a:active {
+	text-decoration: underline;
+	color: #06C;
+}
+
+#wrap {
+	width: 780px;
+	margin: 0 auto;
+}
+.center {
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div id="wrap">
+<h3>Tycoon CRM Documentation</h3>
+<p><em>Version 1.4.3</em></p>
+<p class="center"><img src="assets/screen-00.png" alt="" /></p>
+<h4>TABLE OF CONTENTS<br />
+</h4>
+<ol>
+  <li><a href="#description">DESCRIPTION</a></li>
+  <li><a href="#requirements">REQUIREMENTS</a></li>
+  <li><a href="#installation">INSTALLATION</a></li>
+  <li><a href="#upgrade">UPGRADE</a></li>
+  <li><a href="#changelog">CHANGELOG</a></li>
+</ol>
+<p><strong><a name="description" id="description"></a>1. DESCRIPTION</strong></p>
+<p>Tycoon CRM is a customers/clients/employees CV manager written in  PHP/MySQL. It is entirely browser-based, multi-user and multi-language.</p>
+<p><strong>Tycoon CRM</strong> is meant to be used by a group of people sharing the same database, and diferrent access levels, based on user and password.</p>
+<p><strong>Level 1</strong> user has access to all databases, but does not see contact addresses, phone numbers, or IDs.</p>
+<p><strong>Level 2</strong> user has access to employed users only and sees photos, names and workplaces.</p>
+<p>Users cannot add, edit or remove CVs, do not have access to configuration and cannot add, edit or delete categories.</p>
+<p class="center"><img src="assets/screen-01.png" alt="" /></p>
+<p><strong>Tycoon CRM</strong> has advanced functions for adding, viewing, editing,   deleting, sorting and filtering CVs, with dynamic categories and   advanced search. It also features, pagination, rows per page, quick previous/next, first/last links.</p>
+<p class="center"><img src="assets/screen-02.png" alt="" /></p>
+<p><strong>Tycoon CRM</strong> can backup SQL data in one click using the built-in backup module. All previous backups can be downloaded and/or sent via email.</p>
+<p>Backup email addresses can be set in <strong>includes/config.php</strong> in backup settings section.</p>
+<p class="center"><img src="assets/screen-04.png" alt="" /></p>
+<h3>Configuration</h3>
+<p><strong>Configuration</strong> panels (Users and Options) allow the user to add more user to the database with various access levels. All levels are documented regarding their amount of information.</p>
+<p><span class="center"><img src="assets/screen-03.png" alt=""/></span></p>
+<p>Data (CVs) can be exported to CSV, ready for import into Microsoft Office or any other tabular display software.</p>
+<p>In order to successfully import a CSV file you need a <em>FILE grant</em> for your MySQL user.</p>
+<p>Use the following command in your MySQL console: GRANT FILE ON *.* TO root@localhost IDENTIFIED BY &quot;root&quot;;</p>
+<p><strong>Note:</strong> By default, MySQL is installed with <em>FILE grant</em> set to &quot;No&quot;. That is not a soft setting, but a default set by MySQL.</p>
+<h3>Compatibility</h3>
+<p><strong>Tycoon CRM</strong> has been tested in Microsoft Internet Explorer, Mozilla Firefox, Google Chrome and Safari and works fine. However, we do not recommend using Microsoft Internet Explorer.</p>
+<p class="center"><img src="assets/screen-06.png" alt="" /></p>
+<p><strong><a name="requirements" id="requirements"></a>2. REQUIREMENTS</strong></p>
+<p>Server requirements for Tycoon CRM are:</p>
+<ul>
+  <li>PHP 5+</li>
+  <li>MySQL 5+</li>
+  <li>FILE Grant for current user</li>
+</ul>
+<p><strong><a name="installation" id="installation"></a>3. INSTALLATION</strong></p>
+<ol>
+  <li>Create a database for your CRM.</li>
+  <li>Edit <strong>includes/config.php</strong> file for correct database settings.</li>
+  <li>Edit <strong>includes/config.php</strong> file for backup emails.</li>
+  <li>Import _sql/tables.sql into the newly created database.</li>
+  <li>You're done!</li>
+  <li>The default username and password are <em>demo/demo</em> and <em>newuser/newuser</em>.</li>
+</ol>
+<p><strong><a name="upgrade" id="upgrade"></a>4. UPGRADE</strong></p>
+<p><strong>Tycoon CRM</strong> gets updated by overwriting the files. No information is lost, as all data is kept in the database. If a future version requires database changes, it will prompt you to start an upgrade wizard. Any future versions will have a docs/upgrade.html file with detailed information.</p>
+<p><a name="changelog" id="changelog"></a><strong>5. CHANGELOG</strong></p>
+<p>Read the <a href="changelog.txt">changelog here</a> (text version).<br />
+</p>
+</div>
+</body>
+</html>

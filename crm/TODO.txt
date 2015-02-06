@@ -1,0 +1,129 @@
+CREATETABLE`crm`.`roles` (
+ `rid` INT NOTNULLAUTO_INCREMENTPRIMARYKEY ,
+ `rolename` TEXT NOTNULL 
+) ENGINE=MYISAM ;
+
+
+
+
+
+
+
+
+
+
+
+ALTERTABLE`items`ADD`languages` TEXT NOTNULLAFTER`salary`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ALTER TABLE `items` ADD `linkedin` TEXT NOT NULL AFTER `available`;
+
+CREATETABLE`crm`.`activity` (
+ `aID` INT NOTNULLAUTO_INCREMENTPRIMARYKEY ,
+ `aDate` DATETIME NOTNULL ,
+ `aUser` TEXT NOTNULL ,
+ `aAction` TEXT NOTNULL 
+) ENGINE=MYISAM ;
+
+
+
+
+
+PARAMETERS jqPrint
+
+    debug - Allows you to choose to make visible the iframe used for printing.
+    importCSS - Css links in original page will be imported into iframe.
+    First it searchs for media='print', if there isn't, will be imported the normal css files.
+    printContainer - Indicates if the original selector object must be included into the print (attention: setting it to false may breaks your css rules).
+    operaSupport - Indicates if the plugin must support also Opera, in that case it provides to build a temporary tab to print.
+
+
+
+
+
+
+
+
+Hello, I finally managed to update my PHP script. Your requirement was a documentation file. I have added a /docs/ folder from your provided template with documentation and screenshots. Also, I have added several new features. Here is the complete changelog:
+
+Added CSS menu
+Added basic HTML5 structure
+Added backup module (first release)
+Added search function to every database type page
+Added county and country labels
+Changed a few localized labels
+Regrouped menu items
+Improved documentation
+
+Thank you!
+
+
+
+
+
+contextual documentation/help
+big buttons
+backup
+
+ALTER TABLE `items` ADD `address2` TEXT NOT NULL AFTER `address`;
+ALTER TABLE `items` DROP `cnp`, DROP `shoes`, DROP `suitsize`;
+
+Add county table
+
+ALTER TABLE `items` ADD `country` TEXT NOT NULL AFTER `county`;
+ALTER TABLE `items` ADD `notes` TEXT NOT NULL AFTER `description`;
+
+
+
+
+http://crm.roo.ie/add.php
+
+make email and mobile mandatory
+
+=============================
+
+http://crm.roo.ie/settings.php
+
+re \"\"http://crm.roo.ie/settings.php\"\" is this for inputting data from a csv file?
+
+in the Legend box, i dont think the girls will understand this
+
+so users have 2 ways of importing data into the crm
+1 upload cv and populate http://crm.roo.ie/add.php
+2 upload cv and upload csv file, the csv file will populate http://crm.roo.ie/add.php
+
+we could provide an eg. csv file
+
+your thoughts?
+=============================
+
+re changing
+im thinking of €50 per month for every 4 users
+so if they want a 5th user/login its another €50
+the more users the more support that will be required.
+=============================
+
+should we add a button/function so that an admin user can do a manual backup?
+=============================

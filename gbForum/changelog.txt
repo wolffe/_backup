@@ -1,0 +1,21 @@
+=== Cinnamon Boards ===
+
+== Description ==
+
+Cinnamon Boards is a forum/message board PHP script with a light footprint, responsive structure and user accessibility.
+
+== Changelog ==
+
+= 2.0.4 =
+* Fixed overriding ID value in thread reply
+
+= 2.0.3 =
+* Added 4chan style anonymous posting options
+* Added IE7, IE8 and IE8 placeholder compatibility
+
+= 2.0.2 =
+* Added string length for titles and usernames
+* Added changelog.txt file
+
+= 2.0.1 =
+* First public release
