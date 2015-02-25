@@ -1,0 +1,159 @@
+/*
+Theme Name: Default root theme
+Theme URI: http://roo.ie/root/
+Author: Ciprian Popescu
+Author URI: http://roo.ie/
+Description: The 2014 theme for root.
+Version: 1.0
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: white, light, one-column, flexible-width, responsive
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700);
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
+
+* {
+	/**
+	* Improve font rendering and readability/legibility on MacOS and Windows
+	*/
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+ 
+	-moz-osx-font-smoothing: grayscale; 
+ 
+	-moz-font-feature-settings: "liga=1, dlig=1";
+	-ms-font-feature-settings: "liga", "dlig";
+	-webkit-font-feature-settings: "liga", "dlig";
+	-o-font-feature-settings: "liga", "dlig";
+	font-feature-settings: "liga", "dlig";
+	/* END */
+ 
+	/**
+	* Reset fix padding/margin/border sizing
+	*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/* END */
+}
+
+body {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 400;
+	font-size: 14pt;
+	color: #bcb0ad;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #4d4645;
+}
+a {
+	color: #f75b49;
+}
+b, strong { font-weight: 700; }
+
+article {}
+
+h2 {
+	font-weight: normal;
+	color: #666666;
+	font-size: 1.4em;
+}
+p {
+	margin-bottom: 10px;
+	line-height: 1.6em;
+}
+div.wrapper {
+	width: 100%;
+	padding: 5px;
+	margin: 50px auto 10px auto;
+}
+
+#site-title {
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-size: 32pt;
+    color: #ffffff;
+    margin: 4px 0;
+}
+#tagline {
+    margin: 4px 0;
+	color: #bcb0ad;
+    font-size: 18px;
+}
+
+.separator {
+    display: block;
+    height: 32px;
+}
+
+.post {
+	background-color: #605958;
+
+	padding: 16px;
+	margin: 10px 0 40px 0;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #272b2f;
+    border-bottom: 1px solid #535f6b;
+    border-radius: 15px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4) inset, 0 0 20px rgba(0,0,0,0.2) inset;
+    margin: 0 0 70px;
+}
+
+.post-content * {
+    color: #ffffff;
+    text-shadow: 0 1px 0 #000000;
+}
+.post h4 {
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 4px 0;
+}
+.post h4 a {
+    text-decoration: none;
+}    
+
+.post-content img {
+    max-width: 100%;
+}
+.date {
+	color: #bcb0ad;
+	font-size: 10pt;
+}
+
+div.navigation p a {
+	font-size: 1.2em;
+}
+div.navigation p.previous-link {
+	width: 48%;
+	float: left;
+	text-align: left;
+}
+div.navigation p.next-link {
+	width: 48%;
+	float: right;
+	text-align: right;
+}
+div.post-content {
+	padding-top: 4px;
+}
+div.clear { 
+	clear: both;
+}
+div.footer p {
+	padding-top: 10px;
+	color: #999999;
+	font-size: 0.9em;
+	text-align: center;
+}
+div.footer p a {
+	color: #999999;
+}
