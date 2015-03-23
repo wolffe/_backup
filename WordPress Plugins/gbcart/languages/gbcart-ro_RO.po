@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GBCart\n"
+"POT-Creation-Date: 2013-05-08 14:39+0200\n"
+"PO-Revision-Date: 2013-05-08 14:39+0200\n"
+"Last-Translator: Ciprian Popescu <getbutterfly@gmail.com>\n"
+"Language-Team: Ciprian Popescu <getbutterfly@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../cart.php:96
+msgid "Item added successfully!"
+msgstr "Produs adaugat cu succes!"
+
+#: ../cart.php:99
+msgid "This item already exists!"
+msgstr "Acest produs exista deja!"
+
+#: ../cart.php:112
+msgid "Unable to remove item!"
+msgstr "Produs imposibil de sters!"
+
+#: ../cart.php:156 ../cart.php:227 ../cart.php:305
+msgid "Item Name"
+msgstr "Nume produs"
+
+#: ../cart.php:156 ../cart.php:227 ../cart.php:305
+msgid "Item Description"
+msgstr "Descriere produs"
+
+#: ../cart.php:156 ../cart.php:227 ../cart.php:305
+msgid "Item Price"
+msgstr "Pret produs"
+
+#: ../cart.php:164 ../cart.php:235
+msgid "Add to cart"
+msgstr "Adauga in cos"
+
+#: ../cart.php:169 ../cart.php:240
+msgid "Page"
+msgstr "Pagina"
+
+#: ../cart.php:169 ../cart.php:240
+msgid "of"
+msgstr "din"
+
+#: ../cart.php:219
+msgid "<h2>Search Results</h2>"
+msgstr "<h2>Rezultatele cautarii</h2>"
+
+#: ../cart.php:223
+msgid "No results found!"
+msgstr "Niciun rezultat gasit!"
+
+#: ../cart.php:260
+msgid "Search Item..."
+msgstr "Cauta produs..."
+
+#: ../cart.php:261
+msgid "Search"
+msgstr "Cauta"
+
+#: ../cart.php:312
+msgid "Remove this item"
+msgstr "Sterge acest produs"
+
+#: ../cart.php:321
+msgid "Total:"
+msgstr "Total:"
+
+#: ../cart.php:352 ../cart.php:363
+msgid "New Order!"
+msgstr "Comanda noua!"
+
+#: ../cart.php:353 ../cart.php:364
+msgid "Order sent successfully!"
+msgstr "Comanda trimisa cu success!"
+
+#: ../cart.php:356
+msgid "Incorrect verification code!"
+msgstr "Cod de verificare incorect!"
+
+#: ../cart.php:369 ../cart.php:400
+msgid "Send Order"
+msgstr "Trimite comanda"
+
+#: ../cart.php:373
+msgid "Name"
+msgstr "Nume"
+
+#: ../cart.php:374
+msgid "Last Name"
+msgstr "Prenume"
+
+#: ../cart.php:377
+msgid "Company"
+msgstr "Companie"
+
+#: ../cart.php:378
+msgid "Location"
+msgstr "Oras"
+
+#: ../cart.php:381
+msgid "email@domain.com"
+msgstr "email@domeniu.ro"
+
+#: ../cart.php:382
+msgid "Phone"
+msgstr "Telefon"
+
+#: ../cart.php:385
+msgid "Address"
+msgstr "Adresa"
+
+#: ../cart.php:386
+msgid "Address (more)"
+msgstr "Adresa (continuare)"
+
+#: ../cart.php:389
+msgid "Comments"
+msgstr "Comentarii"
+
+#: ../pagination.class.php:35
+msgid "Previous"
+msgstr "Inapoi"
+
+#: ../pagination.class.php:58
+msgid "Next"
+msgstr "Inainte"
+
+#~ msgid "View shopping cart"
+#~ msgstr "Vezi cos"
