@@ -1,0 +1,413 @@
+@import url(normalize.css);
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/* END */
+}
+
+body {
+	font-family: Arial, sans-serif;
+    font-weight: 400;
+	font-size: 13px;
+	color: #383D40;
+
+    background-color: #5e5e61; 
+}
+
+#wrap {
+    width: 980px;
+    margin: 0 auto;
+	padding: 72px 0 0 0;
+}
+
+body, h1, h2, .navigation, #sidebar form #sidebar #files_list, #filelist .filedetails form, #filelist .filedetails ul, #logout {
+	margin:0;
+	padding:0;
+}
+b, strong { font-weight: 700; }
+
+
+input[type="submit"],
+input[type="button"]
+{
+    background-color: #73C0CA;
+    color: #FFFFFF;
+    font-size: inherit;
+	font-family: inherit;
+    font-weight: 400;
+    border: 0 none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover
+{
+    background-color: #63B1BB;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="number"],
+select
+{
+    background-color: #BDC3C7;
+	color: #000000;
+    font-size: inherit;
+    font-weight: 300;
+	font-family: inherit;
+    border: 0 none;
+    padding: 8px 12px;
+}
+
+
+
+#filelist .details span.hide {
+	background:#ffc;
+	color:#000;  
+}
+#filelist tr.rowhover, a:hover, h1, #sidebar h2, #filelist th, #filelist tfoot td, #filelist .hover, #filelist tr.rowhover .details span.hide {
+	background-color: #F3643C !important;
+	color:#fff !important;
+}
+.error {color:red;}
+.ok {color:#73C0CA;}
+.hidden {display:none;}
+a {
+	color:#73C0CA;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+#logout {
+	position:absolute;
+	top:4px;
+	right:4px;
+	left:auto;
+	bottom:auto;
+	color:#fff;	
+	text-align:right;
+}
+#logout p {
+  margin:0;
+}
+h1 a, #logout a {
+	color:#fff;
+}
+h1 {
+	font-size: 2em;
+	font-weight: 300;
+	padding: 0.2em 24px;
+	margin-bottom: 24px;
+	width: 100%;
+	box-shadow: 0 8px 0 #2C3031;
+}
+h2 {
+	font-size:1.5em;
+	font-weight:normal;
+	margin-left:265px;
+}
+#main h2,
+#main p {
+  margin-left:25px;
+}
+form .description {
+  font-size:0.8em;
+  margin:0;
+}
+/* Normal tables */
+table {
+  border-collapse:collapse;
+  margin:0 25px 15px 25px;
+  text-align:left;
+  width:300px;
+}
+th {
+  font-weight:bold;
+  background:#73C0CA;
+  color: #FFFFFF;
+}
+th, td {
+  padding:5px 10px;
+}
+
+/* Sidebar */
+#sidebar {
+	width: 100%;
+	margin: 0;
+	float: left;
+	font-size: 12px;
+}
+#sidebar .section {
+    width: 310px;
+    min-height: 150px;
+    float: left;
+	background-color: #FFFFFF;
+	margin: 0 24px 24px 0;
+	padding-bottom: 0.8em;
+	box-shadow: 0 8px 0 #2C3031;
+}
+#sidebar .section:last-child {
+	margin: 0 0 24px 0;
+}
+#sidebar .section form {
+	padding:0.8em 0.8em 0 0.8em;
+}
+#sidebar h2 {
+	font-size: 12px;
+	padding: 0.4em 0 0.4em 0.4em;
+	margin: 0;
+}
+#sidebar h3 {
+	font-weight:bold;
+	font-size:1.2em;
+	margin:1em 0 0.5em 0;
+}
+#sidebar ul {
+	margin:0.8em 0 0 1.5em;
+	padding:0;	
+}
+#sidebar #files_list, #sidebar #searchlist {
+	margin-left:1.5em;
+}
+#sidebar #uploadbutton {
+	margin:1em 0 0 0;
+}
+#sidebar .info {
+    font-weight: 300;
+    font-size: smaller;
+    margin-top: 8px;
+}
+#files_list span.error {
+	cursor:pointer;
+}
+#files_list span.error:hover {
+	text-decoration:underline;
+}
+#uploadsection input {
+	width:200px;
+}
+#mkdir, #q {
+	width:140px;
+}
+#q {
+	width:130px;
+}
+#searchsubmit {
+	width:50px;
+}
+#sidebar p {
+	text-align:center;
+}
+/* Search */
+div#searchoptions {
+	margin:0.5em 0 0 0.3em;
+}
+dl#searchlist dt {
+	font-size:1.2em;;
+}
+dl#searchlist dt.dir {
+	font-weight:bold;
+}
+dl#searchlist dd {
+	margin:0.3em 0 0.5em 1em;
+	padding-left:0;
+}
+dl#searchlist dd a {
+	color:#666;
+}
+dl#searchlist dd a:hover {
+	color:#fff;
+}
+/* Status box and auto update box */
+#status p, #autoupdate p {
+  text-align:left;
+}
+#status p, 
+#status ul, 
+#autoupdate div {
+	text-align:left;
+	margin:0px;
+  padding:0;
+}
+#status ul {
+	padding:0 0 0 10px;  
+}
+#status, #autoupdate {
+	clear: both;
+	background-color:#ffc;
+	padding:10px;
+	margin:0 0 15px 0;
+}
+/* File list */
+#filelist td.name a {
+    color: #000000;
+    font-size: 16px;
+    display:block;
+/*  width:100%;*/
+/*  height:100%;*/
+    padding:4px 2em 4px 10px;
+}
+#filelist a:hover {
+	background:inherit;
+	text-decoration:none;
+}
+#filelist tr.rowhover a {
+	color:#fff;
+}
+#filelist {
+    min-width: 100%;
+	border-collapse:collapse;
+	margin: 0;
+	box-shadow: 0 8px 0 #2C3031;
+}
+
+#title span {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.head-manual {
+	font-size: 12px;
+    float: left;
+    line-height: 24px;
+}
+
+.sharelink {
+    font-weight: 300;
+    padding: 4px 2em 4px 10px;
+    font-size: 13px;
+}
+
+#filelist th.size a {
+	color:white;
+}
+#filelist th {
+	padding:0.3em 0.6em;
+	text-align:left;
+}
+#filelist td.details {
+    width: 24px;
+    padding: 0.3em 0;
+}
+#filelist .details span.show, #filelist .details span.hide {
+	cursor:pointer;
+  padding:4px 4px;
+}
+#filelist th.size, 
+#filelist td.size, 
+#filelist th.date, 
+#filelist td.date {
+	text-align: right;
+	font-weight: 300;
+	font-size: 12px;
+}
+#filelist th.size, 
+#filelist td.size {
+  padding-right:10px;
+}
+#filelist tfoot td {
+	font-size:10px;
+	text-align:right;
+	font-weight:normal;
+}
+#filelist tr {
+	background:#fff;
+}
+#filelist tr.odd {
+	background:#CBD5D7;
+}
+#filelist tr.dir td.name {
+	font-weight:bold;
+}
+#filelist tr.highlight {
+	background:#ffc;
+	font-style:italic;
+	font-weight:bold;
+}
+#filelist tr.rowhover {
+	background:#73C0CA;
+	color:#fff;
+}
+#filelist .hover, #filelist .filedetails ul li {
+	cursor:pointer;
+}
+#filelist .filedetails {
+	background:#ffc;
+	font-size:10px;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	padding:1em 0.5em;
+}
+#filelist .filedetails td {
+	width:275px;
+}
+#filelist .filedetails .newvalue {
+	width:150px;
+}
+#filelist .filedetails form {
+	padding:0.3em;
+}
+#filelist .filedetails label {
+	display:block;
+	font-weight:bold;
+	margin:0 0 0.5em 0;
+}
+#filelist .filedetails ul {
+	list-style:none;
+	padding:0.3em 1.2em 0.3em 0.3em;
+	width:60px;
+	float:left;
+}
+#filelist .filedetails ul li.selected {
+	font-weight:bold;
+}
+#filelist td.error {
+	padding:1em 3em;
+}
+form#sort_form {
+  margin:0;
+  padding:0;
+  float:right;
+}
+
+
+/* Edit form */
+form#edit, #main {
+/*  margin-left:265px;*/
+float:left;
+}
+form#edit textarea {
+	margin:1.5em 0 1em 0;
+}
+#savestatus {
+	margin-left:265px;
+}
+/* Login box */
+#loginbox input
+{
+    font-size: 18px;
+}
+
+#cookie_label { color: #FFFFFF; font-weight: 300; }
+/* Footer */
+#footer {
+    color: #FFFFFF;
+	font-size: 11px;
+    font-weight: 300;
+	clear: both;
+	margin: 24px 0;
+	padding-bottom: 48px;
+}
+.seperator {
+	border-top:2px solid #73C0CA;
+}
+
+
+
+.buffer { padding: 16px; }
+.buffer-lite { padding: 4px 16px; }

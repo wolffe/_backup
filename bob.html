@@ -1,0 +1,57 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Bob's Converter</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<style>
+body { font-family: "Open Sans", Helvetica, Arial, sans-serif; color: #444444; }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+/**
+function getSelectionText() {
+    var text = "";
+    if (window.getSelection) {
+        text = window.getSelection().toString();
+    } else if (document.selection && document.selection.type != "Control") {
+        text = document.selection.createRange().text;
+    }
+    return text;
+}
+
+$(document).ready(function(){
+    alert("Welcome to Bob's Converter 0.1-alpha!\n\nUse your mouse to select any numerical value to be converted from cm (centimetres) to in (inches).");
+
+    $(document).mouseup(function (e){
+        e.preventDefault();
+        var xval = getSelectionText();
+        var zval = parseInt(xval);
+        if(isNaN(zval)) {
+           alert('Please select a numerical value!');
+        }
+        else {
+           alert('Hey Bob! ' + xval + 'cm equals ' + (zval*0.393700787).toFixed(2) + 'in');
+        }
+    })
+});
+/**/
+</script>
+</head>
+<body>
+<h3>Bob's metric conversion bookmarklet.</h3>
+
+<p>Welcome to Bob's Converter 0.1-alpha! Use your mouse to select any numerical value to be converted from cm (centimetres) to in (inches).</p>
+
+<p>Drag the button below to your bookmarks bar:</p>
+
+<p><i class="fa fa-compress"></i> <a class="bookmarklet" href="javascript:(function()%7Bfunction%20callback()%7B(function(%24)%7Bvar%20jQuery%3D%24%3Bfunction%20getSelectionText()%20%7Bvar%20text%20%3D%20%22%22%3Bif%20(window.getSelection)%20%7Btext%20%3D%20window.getSelection().toString()%3B%7D%20else%20if%20(document.selection%20%26%26%20document.selection.type%20!%3D%20%22Control%22)%20%7Btext%20%3D%20document.selection.createRange().text%3B%7Dreturn%20text%3B%7D%24(document).ready(function()%7Balert(%22Welcome%20to%20Bob's%20Converter%200.1-alpha!%5Cn%5CnUse%20your%20mouse%20to%20select%20any%20numerical%20value%20to%20be%20converted%20from%20cm%20(centimetres)%20to%20in%20(inches).%22)%3B%24(document).mouseup(function%20(e)%7Be.preventDefault()%3Bvar%20xval%20%3D%20getSelectionText()%3Bvar%20zval%20%3D%20parseInt(xval)%3Bif(isNaN(zval))%20%7Balert('Please%20select%20a%20numerical%20value!')%3B%7Delse%20%7Balert('Hey%20Bob!%20'%20%2B%20xval%20%2B%20'cm%20equals%20'%20%2B%20(zval*0.393700787).toFixed(2)%20%2B%20'in')%3B%7D%7D)%7D)%7D)(jQuery.noConflict(true))%7Dvar%20s%3Ddocument.createElement(%22script%22)%3Bs.src%3D%22https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.7.1%2Fjquery.min.js%22%3Bif(s.addEventListener)%7Bs.addEventListener(%22load%22%2Ccallback%2Cfalse)%7Delse%20if(s.readyState)%7Bs.onreadystatechange%3Dcallback%7Ddocument.body.appendChild(s)%3B%7D)()">Bob's Converter</a></p>
+
+</body>
+</html>
