@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WordPress Placeholder Documentation</title>
+<style type="text/css">
+body,td,th {
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #333333;
+}
+body {
+	background-color: #FFFFFF;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+img {
+	border: 0;
+}
+</style>
+</head>
+
+<body>
+<h2>Placeholder</h2>
+<p>version 1.1</p>
+
+<p>The <b>Placeholder</b> plugin is a quick and simple function for inserting image placeholders in your design or code. Add the shortcode in your post or page (or straight into your template) and get a customized placeholder.</p>
+<p>An image placeholder is a dummy image designed to draw attention to the need for an actual image.
+<p>When designing WordPress templates and layouts, images to be used usually doesn't exist at first as it is the layout that matters the most. However, the sizes for the images are usually preset and inserting some image placeholders help visualize the layout better.</p>
+<p>The plugin generates columns and entire layouts if size and alignment are used and combined.</p>
+<p>Here is an example of 6 blue columns:</p>
+<p><textarea cols="80" rows="8">[_p width="50" height="150" color="#0000ff" align="none"] [_p width="50" height="150" color="#0000ff" align="none"] [_p width="50" height="150" color="#0000ff" align="none"] [_p width="50" height="150" color="#0000ff" align="none"] [_p width="50" height="150" color="#0000ff" align="none"]</textarea></p>
+
+<p>There is also an editor button which quickly adds a default image placeholder shortcode, which you can modify.<p>
+<p><img src="assets/asset_placeholder_button.png" alt=""></p>
+
+<h3>Shortcodes</h3>
+<p><code>[_p <b>width="150"</b> <b>height="150"</b> color="#cccccc" align="none" text="SAMPLE IMAGE" size="12" class="myimage" ]</code></p>
+<p>
+	The <code><b>width</b></code> and <code><b>height</b></code> parameters are mandatory. All the other parameters are optional, as they have fallback values.<br>
+	The <code><b>color</b></code> parameter requires full HEX color code (no shorthand values, such as F00 or CCC, are allowed).<br>
+	The <code><b>align</b></code> parameter accepts three values: <code>none</code> (default), <code>left</code> or <code>right</code>.<br>
+	The <code><b>text</b></code> parameter sets the placeholder text (default: SAMPLE).<br>
+	The <code><b>class</b></code> parameter is used when styling the image yourself in a separate stylesheet (such as style.css). Use it when adding borders, padding or margin to your images.<br>
+	The <code><b>size</b></code> parameter sets the placeholder text size (default is 12).<br>
+	The <code><b>img</b></code> parameter sets the placeholder background image. Use it to place specially crafted banners or images. The image will tile, so you can use various patterns.<br>
+	The <code><b>link</b></code> parameter sets the placeholder link (optional).<br>
+</p>
+
+<p>The text colour is automatically calculated from the background color, and displays as either black or white.</p>
+
+<p>Another option is the placeholder shape, which, if used with fixed width and height, generates circles.</p>
+
+<p>
+	<img src="assets/asset_rectangle_placeholders.png" alt="" style="height: 300px"> 
+	<img src="assets/asset_round_placeholders.png" alt="" style="height: 300px">
+</p>
+
+<h3>Template Tags</h3>
+<p>Use the following PHP code if you want to add an image placeholder directly into your template:</p>
+<p><code>&lt;?php echo do_shortcode('[_p width="100" height="100" color="#cc0000" align="left"]'); ?&gt;</code></p>
+<p>This is, basically, an embedded shortcode. Feel free to add or remove any parameters from the shortcode.</p>
+
+<h3>Bonus Shortcodes</h3>
+<p>Use <code>[_t]</code> and <code>[_t2x]</code> shortcodes to generate text.</p>
+
+<p><strong>Features</strong></p>
+<ul>
+	<li>HTML5 compliant (the image placeholder is a simple block DIV with an applied inline style)</li>
+	<li>Works with all themes</li>
+	<li>Customizable default options</li>
+	<li>Small, fast and performant</li>
+	<li>Can be translated in any language</li>
+	<li>Comes with several languages by default</li>
+</ul>
+
+<p><strong>Installation</strong></p>
+<ol>
+	<li>Upload the <strong>wp-placeholder</strong> folder to your '/wp-content/plugins/' directory</li>
+	<li>Activate the plugin via the Plugins menu in WordPress</li>
+	<li>A new <strong>Placeholder</strong> menu will appear in WordPress administration</li>
+</ol>
+
+<p><strong>Where to use eCards?</strong></p>
+<ul>
+	<li>Use <strong>Placeholder</strong> for a web site design, sketch or mock-up</li>
+	<li>Use <strong>Placeholder</strong> for a quick client view</li>
+</ul>
+</body>
+</html>

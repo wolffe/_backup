@@ -1,0 +1,707 @@
+#toplevel_page_cinnamon_forum .wp-menu-image:before { content: "\f488"; }
+
+.cinnamon {
+  /* Grid HTML Classes */
+  /* Styles for screens that are atleast 768px; */
+  /* Panels */
+  /* Labels */
+  /* Foundation Alerts */
+  /* Tables */
+  width: 90%;
+  display: block;
+  overflow: hidden;
+}
+.cinnamon *,
+.cinnamon *:before,
+.cinnamon *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.cinnamon html,
+.cinnamon body {
+  font-size: 100%;
+}
+.cinnamon body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+}
+.cinnamon a:hover {
+  cursor: pointer;
+}
+.cinnamon a:focus {
+  outline: none;
+}
+.cinnamon img,
+.cinnamon object,
+.cinnamon embed {
+  max-width: 100%;
+  height: auto;
+}
+.cinnamon object,
+.cinnamon embed {
+  height: 100%;
+}
+.cinnamon img {
+  -ms-interpolation-mode: bicubic;
+}
+.cinnamon #map_canvas img,
+.cinnamon #map_canvas embed,
+.cinnamon #map_canvas object,
+.cinnamon .map_canvas img,
+.cinnamon .map_canvas embed,
+.cinnamon .map_canvas object {
+  max-width: none !important;
+}
+.cinnamon .left {
+  float: left !important;
+}
+.cinnamon .right {
+  float: right !important;
+}
+.cinnamon .text-left {
+  text-align: left !important;
+}
+.cinnamon .text-right {
+  text-align: right !important;
+}
+.cinnamon .text-center {
+  text-align: center !important;
+}
+.cinnamon .text-justify {
+  text-align: justify !important;
+}
+.cinnamon .hide {
+  display: none;
+}
+.cinnamon .antialiased {
+  -webkit-font-smoothing: antialiased;
+}
+.cinnamon img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.cinnamon textarea {
+  height: auto;
+  min-height: 50px;
+}
+.cinnamon select {
+  width: 100%;
+}
+.cinnamon .row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5em;
+  *zoom: 1;
+}
+.cinnamon .row:before, .cinnamon .row:after {
+  content: " ";
+  display: table;
+}
+.cinnamon .row:after {
+  clear: both;
+}
+.cinnamon .row.collapse .column,
+.cinnamon .row.collapse .columns {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  float: left;
+}
+.cinnamon .row .row {
+  width: auto;
+  margin-left: -0.9375em;
+  margin-right: -0.9375em;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+  *zoom: 1;
+}
+.cinnamon .row .row:before, .cinnamon .row .row:after {
+  content: " ";
+  display: table;
+}
+.cinnamon .row .row:after {
+  clear: both;
+}
+.cinnamon .row .row.collapse {
+  width: auto;
+  margin: 0;
+  max-width: none;
+  *zoom: 1;
+}
+.cinnamon .row .row.collapse:before, .cinnamon .row .row.collapse:after {
+  content: " ";
+  display: table;
+}
+.cinnamon .row .row.collapse:after {
+  clear: both;
+}
+.cinnamon .column,
+.cinnamon .columns {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+@media only screen {
+  .cinnamon .column,
+  .cinnamon .columns {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    float: left;
+  }
+  .cinnamon .small-1 {
+    position: relative;
+    width: 8.33333%;
+  }
+  .cinnamon .small-2 {
+    position: relative;
+    width: 16.66667%;
+  }
+  .cinnamon .small-3 {
+    position: relative;
+    width: 25%;
+  }
+  .cinnamon .small-4 {
+    position: relative;
+    width: 33.33333%;
+  }
+  .cinnamon .small-5 {
+    position: relative;
+    width: 41.66667%;
+  }
+  .cinnamon .small-6 {
+    position: relative;
+    width: 50%;
+  }
+  .cinnamon .small-7 {
+    position: relative;
+    width: 58.33333%;
+  }
+  .cinnamon .small-8 {
+    position: relative;
+    width: 66.66667%;
+  }
+  .cinnamon .small-9 {
+    position: relative;
+    width: 75%;
+  }
+  .cinnamon .small-10 {
+    position: relative;
+    width: 83.33333%;
+  }
+  .cinnamon .small-11 {
+    position: relative;
+    width: 91.66667%;
+  }
+  .cinnamon .small-12 {
+    position: relative;
+    width: 100%;
+  }
+  .cinnamon .small-offset-0 {
+    position: relative;
+    margin-left: 0%;
+  }
+  .cinnamon .small-offset-1 {
+    position: relative;
+    margin-left: 8.33333%;
+  }
+  .cinnamon .small-offset-2 {
+    position: relative;
+    margin-left: 16.66667%;
+  }
+  .cinnamon .small-offset-3 {
+    position: relative;
+    margin-left: 25%;
+  }
+  .cinnamon .small-offset-4 {
+    position: relative;
+    margin-left: 33.33333%;
+  }
+  .cinnamon .small-offset-5 {
+    position: relative;
+    margin-left: 41.66667%;
+  }
+  .cinnamon .small-offset-6 {
+    position: relative;
+    margin-left: 50%;
+  }
+  .cinnamon .small-offset-7 {
+    position: relative;
+    margin-left: 58.33333%;
+  }
+  .cinnamon .small-offset-8 {
+    position: relative;
+    margin-left: 66.66667%;
+  }
+  .cinnamon .small-offset-9 {
+    position: relative;
+    margin-left: 75%;
+  }
+  .cinnamon .small-offset-10 {
+    position: relative;
+    margin-left: 83.33333%;
+  }
+  .cinnamon [class*="column"] + [class*="column"]:last-child {
+    float: right;
+  }
+  .cinnamon [class*="column"] + [class*="column"].end {
+    float: left;
+  }
+  .cinnamon .column.small-centered,
+  .cinnamon .columns.small-centered {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .cinnamon .large-1 {
+    position: relative;
+    width: 8.33333%;
+  }
+  .cinnamon .large-2 {
+    position: relative;
+    width: 16.66667%;
+  }
+  .cinnamon .large-3 {
+    position: relative;
+    width: 25%;
+  }
+  .cinnamon .large-4 {
+    position: relative;
+    width: 33.33333%;
+  }
+  .cinnamon .large-5 {
+    position: relative;
+    width: 41.66667%;
+  }
+  .cinnamon .large-6 {
+    position: relative;
+    width: 50%;
+  }
+  .cinnamon .large-7 {
+    position: relative;
+    width: 58.33333%;
+  }
+  .cinnamon .large-8 {
+    position: relative;
+    width: 66.66667%;
+  }
+  .cinnamon .large-9 {
+    position: relative;
+    width: 75%;
+  }
+  .cinnamon .large-10 {
+    position: relative;
+    width: 83.33333%;
+  }
+  .cinnamon .large-11 {
+    position: relative;
+    width: 91.66667%;
+  }
+  .cinnamon .large-12 {
+    position: relative;
+    width: 100%;
+  }
+  .cinnamon .row .large-offset-0 {
+    position: relative;
+    margin-left: 0%;
+  }
+  .cinnamon .row .large-offset-1 {
+    position: relative;
+    margin-left: 8.33333%;
+  }
+  .cinnamon .row .large-offset-2 {
+    position: relative;
+    margin-left: 16.66667%;
+  }
+  .cinnamon .row .large-offset-3 {
+    position: relative;
+    margin-left: 25%;
+  }
+  .cinnamon .row .large-offset-4 {
+    position: relative;
+    margin-left: 33.33333%;
+  }
+  .cinnamon .row .large-offset-5 {
+    position: relative;
+    margin-left: 41.66667%;
+  }
+  .cinnamon .row .large-offset-6 {
+    position: relative;
+    margin-left: 50%;
+  }
+  .cinnamon .row .large-offset-7 {
+    position: relative;
+    margin-left: 58.33333%;
+  }
+  .cinnamon .row .large-offset-8 {
+    position: relative;
+    margin-left: 66.66667%;
+  }
+  .cinnamon .row .large-offset-9 {
+    position: relative;
+    margin-left: 75%;
+  }
+  .cinnamon .row .large-offset-10 {
+    position: relative;
+    margin-left: 83.33333%;
+  }
+  .cinnamon .row .large-offset-11 {
+    position: relative;
+    margin-left: 91.66667%;
+  }
+  .cinnamon .push-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto;
+  }
+  .cinnamon .pull-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto;
+  }
+  .cinnamon .push-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto;
+  }
+  .cinnamon .pull-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto;
+  }
+  .cinnamon .push-3 {
+    position: relative;
+    left: 25%;
+    right: auto;
+  }
+  .cinnamon .pull-3 {
+    position: relative;
+    right: 25%;
+    left: auto;
+  }
+  .cinnamon .push-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto;
+  }
+  .cinnamon .pull-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto;
+  }
+  .cinnamon .push-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto;
+  }
+  .cinnamon .pull-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto;
+  }
+  .cinnamon .push-6 {
+    position: relative;
+    left: 50%;
+    right: auto;
+  }
+  .cinnamon .pull-6 {
+    position: relative;
+    right: 50%;
+    left: auto;
+  }
+  .cinnamon .push-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto;
+  }
+  .cinnamon .pull-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto;
+  }
+  .cinnamon .push-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto;
+  }
+  .cinnamon .pull-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto;
+  }
+  .cinnamon .push-9 {
+    position: relative;
+    left: 75%;
+    right: auto;
+  }
+  .cinnamon .pull-9 {
+    position: relative;
+    right: 75%;
+    left: auto;
+  }
+  .cinnamon .push-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto;
+  }
+  .cinnamon .pull-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto;
+  }
+  .cinnamon .push-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto;
+  }
+  .cinnamon .pull-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto;
+  }
+  .cinnamon .column.large-centered,
+  .cinnamon .columns.large-centered {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+  }
+  .cinnamon .column.large-uncentered,
+  .cinnamon .columns.large-uncentered {
+    margin-left: 0;
+    margin-right: 0;
+    float: left !important;
+  }
+  .cinnamon .column.large-uncentered.opposite,
+  .cinnamon .columns.large-uncentered.opposite {
+    float: right !important;
+  }
+}
+.cinnamon .panel {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  margin-bottom: 1.25em;
+  padding: 1.25em;
+  background: #f2f2f2;
+}
+.cinnamon .panel > :first-child {
+  margin-top: 0;
+}
+.cinnamon .panel > :last-child {
+  margin-bottom: 0;
+}
+.cinnamon .panel h1, .cinnamon .panel h2, .cinnamon .panel h3, .cinnamon .panel h4, .cinnamon .panel h5, .cinnamon .panel h6, .cinnamon .panel p {
+  color: #333333;
+}
+.cinnamon .panel h1, .cinnamon .panel h2, .cinnamon .panel h3, .cinnamon .panel h4, .cinnamon .panel h5, .cinnamon .panel h6 {
+  line-height: 1;
+  margin-bottom: 0.625em;
+}
+.cinnamon .panel h1.subheader, .cinnamon .panel h2.subheader, .cinnamon .panel h3.subheader, .cinnamon .panel h4.subheader, .cinnamon .panel h5.subheader, .cinnamon .panel h6.subheader {
+  line-height: 1.4;
+}
+.cinnamon .panel.callout {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2284a1;
+  margin-bottom: 1.25em;
+  padding: 1.25em;
+  background: #2ba6cb;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+.cinnamon .panel.callout > :first-child {
+  margin-top: 0;
+}
+.cinnamon .panel.callout > :last-child {
+  margin-bottom: 0;
+}
+.cinnamon .panel.callout h1, .cinnamon .panel.callout h2, .cinnamon .panel.callout h3, .cinnamon .panel.callout h4, .cinnamon .panel.callout h5, .cinnamon .panel.callout h6, .cinnamon .panel.callout p {
+  color: white;
+}
+.cinnamon .panel.callout h1, .cinnamon .panel.callout h2, .cinnamon .panel.callout h3, .cinnamon .panel.callout h4, .cinnamon .panel.callout h5, .cinnamon .panel.callout h6 {
+  line-height: 1;
+  margin-bottom: 0.625em;
+}
+.cinnamon .panel.callout h1.subheader, .cinnamon .panel.callout h2.subheader, .cinnamon .panel.callout h3.subheader, .cinnamon .panel.callout h4.subheader, .cinnamon .panel.callout h5.subheader, .cinnamon .panel.callout h6.subheader {
+  line-height: 1.4;
+}
+.cinnamon .panel.radius {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.cinnamon .label {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  padding: 0.1875em 0.625em 0.25em;
+  font-size: 0.875em;
+  background-color: #2ba6cb;
+  color: white;
+}
+.cinnamon .label.radius {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.cinnamon .label.round {
+  -webkit-border-radius: 1000px;
+  border-radius: 1000px;
+}
+.cinnamon .label.alert {
+  background-color: #c60f13;
+  color: white;
+}
+.cinnamon .label.success {
+  background-color: #5da423;
+  color: white;
+}
+.cinnamon .label.secondary {
+  background-color: #e9e9e9;
+  color: #333333;
+}
+.cinnamon .alert-box {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 1.25em;
+  position: relative;
+  padding: 0.6875em 1.3125em 0.75em 0.6875em;
+  font-size: 0.875em;
+  background-color: #2ba6cb;
+  border-color: #2284a1;
+  color: white;
+}
+.cinnamon .alert-box .close {
+  font-size: 1.375em;
+  padding: 5px 4px 4px;
+  line-height: 0;
+  position: absolute;
+  top: 0.4375em;
+  right: 0.3125em;
+  color: #333333;
+  opacity: 0.3;
+}
+.cinnamon .alert-box .close:hover, .cinnamon .alert-box .close:focus {
+  opacity: 0.5;
+}
+.cinnamon .alert-box.radius {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.cinnamon .alert-box.round {
+  -webkit-border-radius: 1000px;
+  border-radius: 1000px;
+}
+.cinnamon .alert-box.success {
+  background-color: #5da423;
+  border-color: #457a1a;
+  color: white;
+}
+.cinnamon .alert-box.alert {
+  background-color: #c60f13;
+  border-color: #970b0e;
+  color: white;
+}
+.cinnamon .alert-box.secondary {
+  background-color: #e9e9e9;
+  border-color: #d0d0d0;
+  color: #505050;
+}
+.cinnamon table {
+  background: white;
+  margin-bottom: 1.25em;
+  border: solid 1px #dddddd;
+}
+.cinnamon table thead,
+.cinnamon table tfoot {
+  background: whitesmoke;
+  font-weight: bold;
+}
+.cinnamon table thead tr th,
+.cinnamon table thead tr td,
+.cinnamon table tfoot tr th,
+.cinnamon table tfoot tr td {
+  padding: 0.5em 0.625em 0.625em;
+  font-size: 0.875em;
+  color: #222222;
+  text-align: left;
+}
+.cinnamon table tr th,
+.cinnamon table tr td {
+  padding: 0.5625em 0.625em;
+  font-size: 0.875em;
+  color: #222222;
+}
+.cinnamon table tr.even, .cinnamon table tr.alt, .cinnamon table tr:nth-of-type(even) {
+  background: #f9f9f9;
+}
+.cinnamon table thead tr th,
+.cinnamon table tfoot tr th,
+.cinnamon table tbody tr td,
+.cinnamon table tr td,
+.cinnamon table tfoot tr td {
+  display: table-cell;
+  line-height: 1.125em;
+}
+.cinnamon .row {
+  float: left;
+}
+.cinnamon .alert-box {
+  font-size: 13px;
+}
+.cinnamon .alert-box span {
+  float: right;
+}
+.cinnamon .alert-box span a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.cinnamon .alert-box a {
+  color: #1a1a1a;
+  font-size: 13px;
+}
+.cinnamon .alert-box a.thread {
+  color: white;
+  text-decoration: none;
+}
+.cinnamon .showthreads {
+  display: none;
+}
+.cinnamon form input {
+  height: 30px;
+  display: block;
+  line-height: 30px;
+  width: 100%;
+}
+.cinnamon form select {
+  height: 30px;
+  display: block;
+}
+.cinnamon form label {
+  margin-top: 15px;
+}
