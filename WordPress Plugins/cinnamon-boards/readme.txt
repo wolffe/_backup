@@ -1,7 +1,7 @@
 === Cinnamon Boards ===
 Contributors: Ciprian Popescu
 Tags: forum, community, message, topic, thread, category, board
-License: GPLv3
+License: GPLv2
 Requires at least: 4.0
 Tested up to: 4.1.1
 Stable tag: 3.3
