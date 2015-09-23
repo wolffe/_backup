@@ -1,6 +1,0 @@
-[10-Dec-2013 07:21:44] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/rooie/public_html/root/includes/functions.php on line 19
-[10-Dec-2013 07:21:44] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in /home/rooie/public_html/root/includes/miniblog.php on line 24
-[10-Dec-2013 07:21:44] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/rooie/public_html/root/includes/miniblog.php on line 26
-[10-Dec-2013 07:25:07] PHP Parse error:  syntax error, unexpected T_ELSE in /home/rooie/public_html/root/install.php on line 184
-[10-Dec-2013 07:26:42] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Requires argument 2, '_autop_newline_preservation_helper', to be a valid callback in /home/rooie/public_html/root/includes/functions.php on line 146
-[10-Dec-2013 07:26:42] PHP Warning:  preg_replace_callback() [<a href='function.preg-replace-callback'>function.preg-replace-callback</a>]: Requires argument 2, '_autop_newline_preservation_helper', to be a valid callback in /home/rooie/public_html/root/includes/functions.php on line 146
